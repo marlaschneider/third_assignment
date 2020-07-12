@@ -1,0 +1,120 @@
+.App {
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  text-shadow: 
+  1.5px  1.5px 1px#593723,
+  1.5px -1.5px 1px #593723,
+ -1.5px  1.5px 1px #593723,
+ -1.5px -1.5px 1px #593723;
+  color: #F2935C;
+}
+
+.myDog {
+  padding: 20px;
+  margin-top: 0;
+  background-color: #8BD9C3;
+  
+}
+
+#firstpic {
+  display: block;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px; 
+  border: 20px solid white;
+  box-shadow: 10px 10px 20px grey;
+}
+
+button {
+  width: 140px;
+  height: 140px;
+  margin: 30px;
+  border-radius: 50%;
+  border-style: none;
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 20px;
+  background-color: #F2E9D8;
+  color: #F2845C;
+}
+
+button:hover {
+  background-color: #F2845C;
+  color: #F2E9D8;
+}
+
+.buttonsclass {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 0;
+}
+
+#added {
+  position: absolute;
+  left: calc(50% - 125px);
+  top: 40%;
+  z-index: 2; 
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  font-size: 40px;
+  color: #8BD9C3;
+  animation-name: move;
+  animation-duration: 1.5s;
+}
+
+@keyframes move {
+  from {  
+      top: 40%;
+  }
+  
+  to { 
+      top: 30%;
+  }
+}
+
+.favorites {
+  background-color: #F2E9D8;
+}
+
+.doghouse {
+  padding: 20px;
+  background-color: #8BD9C3;
+}
+
+#gallery {
+  height: 200px;
+  margin: 20px;
+  background-color: darkgrey;
+  border: 7px solid white;
+  border-bottom: 50px solid white;
+  box-shadow: 5px 5px 10px rgb(155, 142, 117);
+  transition: all .2s ease-in-out;
+}
+
+#gallery:hover {
+  transform: scale(1.5); 
+}
+
+
+/* colors:
+    blue: #8BD9C3
+    beige: #F2E9D8
+    orange: #F2935C
+    brown: #593723
+    redish: #F2845C*/
